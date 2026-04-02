@@ -85,16 +85,26 @@
 // console.log("Первое число:", first);
 // console.log("Второе число:", second);
 // console.log("Остальные число:", rest);
-const numbers1 = [1, 2, 3];
-const numbers2 = [4, 5, 6];
-const combined = [...numbers1, ...numbers2];
-console.log("Объединённый массив:", combined);
-function findMax(...numbers) {
-    return Math.max(...numbers);
-}
-console.log("Максимум из 1,2,3:", findMax(1, 2, 3));
-console.log("Максимум из 10,20,30,40:", findMax(10, 20, 30, 40));
-const n1 = { a: 1, b: 2 };
-const n2 = { c: 3, d: 4 };
-const ob = { ...n1, ...n2 };
-console.log("Объединённый объект:", ob);
+// const numbers1 = [1, 2, 3];
+// const numbers2 = [4, 5, 6];
+// const combined = [...numbers1, ...numbers2];
+// console.log("Объединённый массив:", combined);
+// function findMax(...numbers) {
+//     return Math.max(...numbers);
+// }
+// console.log("Максимум из 1,2,3:", findMax(1, 2, 3));
+// console.log("Максимум из 10,20,30,40:", findMax(10, 20, 30, 40));
+// const n1 = { a: 1, b: 2 };
+// const n2 = { c: 3, d: 4 };
+// const ob = { ...n1, ...n2 };
+// console.log("Объединённый объект:", ob);
+// import {greet, add, PI} from "./utils.js";
+// console.log("Модули");
+// console.log(greet("Диана"));
+// console.log("5 + 3=", add(5, 3));
+// console.log("Значение PI:", PI);
+// import { multiply as умножить} from "./utils.js";
+// console.log("4 * 7=", умножить(4, 7));
+// import * as Utils from "./utils.js";
+// console.log(Utils.greet("Динара"));
+// console.log("Умножить:", Utils.multiply(3,9));
